@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//static//css//formalunos.css">
+  <!---------Construa uma página web com as tecnologias HTML e CSS para uma página de informações de uma turma de alunos, que deve conter:
+
+1- campo de busca (formulário) para encontrar um aluno
+2- informações da turma na página principal
+3- tabela contendo os aniversários dos alunos
+4- disciplinas já cursadas em forma de lista com os links apontando para outro página---->
+
+</head>
+<body>
+
+        <div class="topo">
+            <img src="static\LOGO.jpg" width="200px" height="200px">
+            <h1>Dudah Gadelha</h1>
+            <a>Empreendedorismo</a>
+
+        </div>
+        <div class="geral">
+
+        <div class="esquerda">
+            <table>
+                <caption><i>Datas comemorativas</i></caption>
+                <thead>
+                    <th>Nome</th>
+                    <th>Data</th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eduarda Emilly G. Soares</td>
+                        <td>25/02/2005</td>
+                    </tr>
+                    <tr>
+                        <td>Eliana Evellyn S. Alves</td>
+                        <td>23/06/1999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="meio">
+            <hr>
+                <caption><i>Informações Gerais</i></caption>
+                <ul>
+                    <li>Setor Confeitaria</li>
+                    <li>Tecnólogo de informática.</li>
+                    <li>Baracharelado em Empreendedorismo.</li>
+                    <li>Confeitaria.</li>
+                    <li>Nails Designer.</li>
+                    <li>Habilidades Criativas.</li>
+                </ul>
+        </div>
+        <div class="direita">
+            <form  action="/buscar" method="get">
+            <label>Pesquisar?</label>
+            <input name="buscar">
+            <button>Buscar</button>
+            </form>
+        </div>
+        </div>
+
+</body>
+</html>

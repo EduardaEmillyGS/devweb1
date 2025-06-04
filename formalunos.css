@@ -1,0 +1,36 @@
+body{
+       background-color: magenta
+        }
+.esquerda{
+       background: white;
+       padding-rigth: 70%;
+        }
+
+.meio{
+       background: white;
+       width: 75%;
+
+       margin-right: 25%;
+       }
+
+table{
+        border: solid black;
+        }
+
+.topo{
+
+        color: white;
+        text-align: center;
+        font-size: 250%;
+        background-color: magenta;
+        border-color: black;
+        }
+
+
+.img{
+        margin-top: 20px;
+     }
+
+.direita{
+          margin-left: 80%
+          }
